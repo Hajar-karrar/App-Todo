@@ -1,0 +1,45 @@
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    font-size: 14px;
+    height: 75px;
+  }
+  
+  .language-selector select {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 20px;
+    width: 150px;
+    
+  }
+  
+  .copyright {
+    text-align: center;
+    flex: 1;
+    
+  }
+  
+  .fac,.twi {
+    margin-right: 10px;
+    color: #007bff; /* Default icon color */
+    transition: color 0.3s, transform 0.3s;
+  
+  }
+  .pin{
+    margin-right: 10px;
+      color: #ef152e;
+      transition: color 0.3s, transform 0.3s;
+    
+  }
+  .inst{
+    margin-right: 10px;
+    color: #ef152e;
+    transition: color 0.3s, transform 0.3s;
+    
+}
+  
+  
