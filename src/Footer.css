@@ -25,7 +25,7 @@
   
   .fac,.twi {
     margin-right: 10px;
-    color: #007bff; /* Default icon color */
+    color: #007bff; 
     transition: color 0.3s, transform 0.3s;
   
   }

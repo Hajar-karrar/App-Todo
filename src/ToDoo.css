@@ -1,4 +1,4 @@
-* General Reset */
+
 body {
     margin: 0;
     padding: 0;
@@ -6,19 +6,19 @@ body {
     background-color: #f5f5f5;
   }
   
-  /* App Container - Sidebar + Main */
+ 
   .app-container {
     display: flex;
     height: 100vh;
   }
   
-  /* Main Content */
+ 
   .main-content {
-    flex: 1; /* Take remaining space */
+    flex: 1; 
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background-color: #ffffff; /* White background */
+    background-color: #ffffff; 
   }
    h1{
     margin-right: 50%;
@@ -27,7 +27,7 @@ body {
     font-size: 28px;
 
   }
-  /* Empty State */
+  
   .empty-state {
     display: flex;
     flex-direction: column;
@@ -38,7 +38,7 @@ body {
   }
   
   .empty-state-image {
-    width: 400px; /* Adjust image size */
+    width: 400px; 
     height: auto;
     margin-bottom: 20px;
 
@@ -62,8 +62,7 @@ body {
   }
   
   
-  /* Task List */
-  /* Task List */
+ 
 .task-list {
     list-style: none;
     padding: 0;
@@ -71,37 +70,37 @@ body {
     width: 80%;
     display: flex;
     flex-direction: column;
-    gap: 10px; /* Espacement uniforme entre les tâches */
+    gap: 10px; 
     margin-top: 3%;
   }
   
-  /* Task Item as a Card */
+ 
   .task-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffffff; /* Blanc pur */
+    background-color: #ffffff;
     padding: 12px 18px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 
-                0 1px 3px rgba(0, 0, 0, 0.06); /* Ombre douce */
+                0 1px 3px rgba(0, 0, 0, 0.06); 
     transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
   
   .task-item:hover {
-    transform: translateY(-5px); /* Effet de légère levée */
+    transform: translateY(-5px); 
     box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15),
                 0 3px 6px rgba(0, 0, 0, 0.1);
   }
   
-  /* Task Title */
+ 
   .task-item span {
     font-size: 1rem;
     font-weight: 500;
     color: #2c3e50;
   }
   
-  /* Dropdown for Task Status */
+  
   .task-item select {
     margin-right: 15px;
     padding: 6px 8px;
@@ -121,7 +120,7 @@ body {
 
   
   
-  /* Delete Button */
+  
   .task-item button {
     color: #e74c3c;
     background-color: transparent;
@@ -139,7 +138,7 @@ body {
     border-color: #c0392b;
   }
   
-  /* Alternate Background for Even Items */
+  
   .task-item:nth-child(even) {
     background-color: #f8f9fa;
   }
